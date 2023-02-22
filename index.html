@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container row" id="main-container">
+        <div class="col-lg-6 col-md-5 img-container">
+            <img id="box-img" src="images/illustration-box-desktop.svg" alt="">
+            <img id="woman-img" src="images/illustration-woman-online-desktop.svg" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-7">
+            <h3>FAQ</h3>
+
+            <details id="one" class="q1">
+                <summary class="row">
+                    <div class="col-11">
+                        How many team members can I invite?
+                    </div>
+                    <div class="col-1 arrow-icon">
+                        <img src="images/icon-arrow-down.svg" class="arrow-img" alt="">
+                    </div>
+                </summary>  
+                <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                    team members for the Premium plan.</div>
+            </details>
+            <hr>
+            <details id="two" class="q2">
+                <summary class="row">
+                    <div class="col-11">
+                        What is the maximum file upload size?
+                    </div>
+                    <div class="col-1 arrow-icon">
+                        <img src="images/icon-arrow-down.svg" class="arrow-img" alt="">
+                    </div>
+                </summary>  
+                <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+            </details>
+            <hr>
+            <details id="three" class="q3">
+                <summary class="row">
+                    <div class="col-11">
+                        How do I reset my password?
+                    </div>
+                    <div class="col-1 arrow-icon">
+                        <img src="images/icon-arrow-down.svg" class="arrow-img" alt="">
+                    </div>
+                </summary>  
+                <div class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
+                    A reset link will be emailed to you.</div>
+            </details>
+            <hr>
+            <details id="four" class="q4">
+                <summary class="row">
+                    <div class="col-11">
+                        Can I cancel my subscription?
+                    </div>
+                    <div class="col-1 arrow-icon">
+                        <img src="images/icon-arrow-down.svg" class="arrow-img" alt="">
+                    </div>
+                </summary>  
+                <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
+            </details>
+            <hr>
+            <details id="five" class="q5">
+                <summary class="row">
+                    <div class="col-11">
+                        Do you provide additional support?
+                    </div>
+                    <div class="col-1 arrow-icon">
+                        <img src="images/icon-arrow-down.svg" class="arrow-img" alt="">
+                    </div>
+                </summary>  
+                <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+            </details>
+    </div>
+
+    <script src="index.js"></script>
+</body>
